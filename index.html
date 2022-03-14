@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="#">
+  <!-- Normalize Element File -->
+  <link rel="stylesheet" href="style/normalize.css">
+  <!-- Main Style File -->
+  <link rel="stylesheet" href="style/style.css">
+  <title>Dray Heng</title>
+</head>
+<body>
+  <!-- Start Loader -->
+  <div class="loader">
+    <img class="door1 door" src="imgs/door1.webp" alt="door">
+    <img class="door2 door" src="imgs/door2.webp" alt="door">
+  </div>
+  <!-- End Loader -->
+
+  <!-- Start Header -->
+  <header class="header">
+    <div class="logo">
+      <a href="#intro" style="display: block;"><img src="imgs/logo.webp" alt="Logo"></a>
+    </div>
+    <ul class="navLinks">
+      <li><a href="#about">about</a></li>
+      <li><a href="#specifics">specifics</a></li>
+      <li><a href="#achievement">achievemnts</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#team">team</a></li>
+      <div class="social">
+        <div class="social-media">
+          <a href="#"><img src="imgs/facebook.webp" alt="facebook"></a>
+          <a href="#"><img src="imgs/twitter.webp" alt="twitter"></a>
+          <a href="#"><img src="imgs/instagram.webp" alt="instagram"></a>
+          <a href="#"><img src="imgs/tiktok.webp" alt="tiktok"></a>
+        </div>
+      </div>
+    </ul>
+    <a class="sign-up btn" href="#">sign-up</a>
+    <div class="toggle" id="toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Introduction Section -->
+  <section class="intro" id="intro">
+    <picture class="bg-cover" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <img src="imgs/intro.webp"
+            alt="Bg Cover"
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </picture>
+    <div class="container">
+      <h1 class="txt-logo">text logo</h1>
+      <!-- Start Carousel Slider -->
+      <main class="carousel">
+        <!-- Start Cap Slider -->
+        <div class="slider">
+          <div class="slider-container">
+            <div class="CapSlide">
+              <img src="imgs/head.png" alt="cap">
+            </div>
+            <div class="CapSlide">
+              <img src="imgs/head.png" alt="cap">
+            </div>
+            <div class="CapSlide">
+              <img src="imgs/head.png" alt="cap">
+            </div>
+            <div class="CapSlide">
+              <img src="imgs/head.png" alt="cap">
+            </div>
+            <div class="CapSlide">
+              <img src="imgs/head.png" alt="cap">
+            </div>
+          </div>
+          <div class="cap-controls controls">
+            <div id="capPrev" class="prev"></div>
+            <div id="capNext" class="next"></div>
+          </div>
+        </div>
+        <!-- End Cap Slider -->
+
+        <!-- Start Glasses Slider -->
+        <div class="slider">
+          <div class="slider-container">
+            <div class="GlassSlide">
+              <img src="imgs/glasses.png" alt="glasses">
+            </div>
+            <div class="GlassSlide">
+              <img src="imgs/glasses.png" alt="glasses">
+            </div>
+            <div class="GlassSlide">
+              <img src="imgs/glasses.png" alt="glasses">
+            </div>
+            <div class="GlassSlide">
+              <img src="imgs/glasses.png" alt="glasses">
+            </div>
+            <div class="GlassSlide">
+              <img src="imgs/glasses.png" alt="glasses">
+            </div>
+          </div>
+          <div class="glass-controls controls">
+            <div id="glassPrev" class="prev"></div>
+            <div id="glassNext" class="next"></div>
+          </div>
+        </div>
+        <!-- End Glasses Slider -->
+
+        <!-- Start Body Slider -->
+        <div class="slider">
+          <div class="slider-container">
+            <div class="BodySlide"> 
+              <img src="imgs/body.png" alt="body">
+            </div>
+            <div class="BodySlide">
+              <img src="imgs/body.png" alt="body">
+            </div>
+            <div class="BodySlide">
+              <img src="imgs/body.png" alt="body">
+            </div>
+            <div class="BodySlide">
+              <img src="imgs/body.png" alt="body">
+            </div>
+            <div class="BodySlide">
+              <img src="imgs/body.png" alt="body">
+            </div>
+          </div>
+          <div class="body-controls controls">
+            <div id="bodyPrev" class="prev"></div>
+            <div id="bodyNext" class="next"></div>
+          </div>
+        </div>
+        <!-- End Body Slider -->
+
+        <!-- Start Shirt Slider -->
+        <div class="slider">
+          <div class="slider-container">
+            <div class="ShirtSlide"> 
+              <img src="imgs/shirt.png" alt="shirt">
+            </div>
+            <div class="ShirtSlide">
+              <img src="imgs/shirt.png" alt="shirt">
+            </div>
+            <div class="ShirtSlide">
+              <img src="imgs/shirt.png" alt="shirt">
+            </div>
+            <div class="ShirtSlide">
+              <img src="imgs/shirt.png" alt="shirt">
+            </div>
+            <div class="ShirtSlide">
+              <img src="imgs/shirt.png" alt="shirt">
+            </div>
+          </div>
+          <div class="shirt-controls controls">
+            <div id="shirtPrev" class="prev"></div>
+            <div id="shirtNext" class="next"></div>
+          </div>
+        </div>
+        <!-- End Shirt Slider -->
+      </main>
+      <!-- End Carousel Slider -->
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum ratione at quis odit vel, eligendi non quibusdam officia facilis amet id, numquam corporis asperiores? Facilis in incidunt reiciendis commodi architecto deserunt cupiditate eaque quo placeat illum alias, voluptatibus provident veniam excepturi earum enim veritatis aut animi nemo sequi sapiente asperiores. Tempore provident libero aperiam ad incidunt earum voluptatum in quo suscipit laudantium assumenda eligendi impedit et, harum autem cupiditate.
+      </p>
+      <a href="#" class="btn">learn more</a>
+    </div>
+  </section>
+  <!-- End Introduction Section -->
+  
+  <!-- Start About Section -->
+  <section class="about" id="about">
+    <picture class="bg-cover" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <img src="imgs/about.webp"
+            alt="Bg Cover"
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </picture>
+    <div class="container">
+      <div class="about-content">
+        <div class="about-txt">
+          <h2>About us</h2>
+          <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore obcaecati hic quod aperiam optio eligendi, quibusdam quas nemo odio quia tempore molestias odit aut natus delectus expedita non nobis harum explicabo exercitationem. Voluptatem ad blanditiis quod voluptate, optio repudiandae eaque quis harum iste fuga distinctio rem quia modi? Porro, tempore!</p>
+        </div>
+        <div class="about-img">
+          <img src="imgs/about-img.webp" alt="About Img">
+        </div>
+      </div>
+      <div class="key-features">
+        <h2 class="heading">Key features</h2>
+        <div class="cards-container">
+          <div class="card-box">
+            <img src="imgs/feature.webp" alt="Feature">
+            <p class="txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa neque voluptatem in voluptates quas facilis obcaecati consequuntur.
+            </p>
+          </div>
+          <div class="card-box">
+            <img src="imgs/feature.webp" alt="Feature">
+            <p class="txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa neque voluptatem in voluptates quas facilis obcaecati consequuntur.
+            </p>
+          </div>
+          <div class="card-box">
+            <img src="imgs/feature.webp" alt="Feature">
+            <p class="txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa neque voluptatem in voluptates quas facilis obcaecati consequuntur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Start Specifics Section -->
+  <section class="specifics" id="specifics">
+    <picture class="bg-cover" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <img src="imgs/specifics.webp"
+            alt="Bg Cover"
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </picture>
+    <div class="container">
+      <h2 class="heading">Specifics</h2>
+      <div class="specific-container">
+        <div class="specific-box">
+          <div class="specific-content">
+            <h3>Phase 1</h3>
+            <h4 class="subtitle">Subtitle</h4>
+            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facilis aspernatur non necessitatibus.</p>
+          </div>
+          <div class="specific-img">
+            <img src="imgs/specific-icon.webp" alt="specific-icon">
+          </div>
+        </div>
+        <div class="specific-box">
+          <div class="specific-img">
+            <img src="imgs/specific-icon.webp" alt="specific-icon">
+          </div>
+          <div class="specific-content">
+            <h3>Phase 2</h3>
+            <h4 class="subtitle">Subtitle</h4>
+            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facilis aspernatur non necessitatibus.</p>
+          </div>
+        </div>
+        <div class="specific-box">
+          <div class="specific-content">
+            <h3>Phase 3</h3>
+            <h4 class="subtitle">Subtitle</h4>
+            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facilis aspernatur non necessitatibus.</p>
+          </div>
+          <div class="specific-img">
+            <img src="imgs/specific-icon.webp" alt="specific-icon">
+          </div>
+        </div>
+        <div class="specific-box">
+          <div class="specific-img">
+            <img src="imgs/specific-icon.webp" alt="specific-icon">
+          </div>
+          <div class="specific-content">
+            <h3>Phase 4</h3>
+            <h4 class="subtitle">Subtitle</h4>
+            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facilis aspernatur non necessitatibus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Specifics Section -->
+
+  <!-- Start Achievemnts Section -->
+  <section class="achievement" id="achievement">
+    <picture class="bg-cover" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <img src="imgs/achievement.webp"
+            alt="Bg Cover"
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </picture>
+    <div class="container">
+      <h2 class="heading" style="text-align: center;">Achievemnts</h2>
+      <div class="achieve-container">
+        <div class="achieve-box">
+          <a href="#"><img src="imgs/achievement-icon.webp" alt="achievement-icon"></a>
+          <a href="#"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum quibusdam dolores. Nulla ullam quaerat laudantium, ipsam voluptatibus at autem.</p></a>
+        </div>
+        <div class="achieve-box">
+          <a href="#"><img src="imgs/achievement-icon.webp" alt="achievement-icon"></a>
+          <a href="#"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum quibusdam dolores. Nulla ullam quaerat laudantium, ipsam voluptatibus at autem.</p></a>
+        </div>
+        <div class="achieve-box">
+          <a href="#"><img src="imgs/achievement-icon.webp" alt="achievement-icon"></a>
+          <a href="#"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum quibusdam dolores. Nulla ullam quaerat laudantium, ipsam voluptatibus at autem.</p></a>
+        </div>
+        <div class="achieve-box">
+          <a href="#"><img src="imgs/achievement-icon.webp" alt="achievement-icon"></a>
+          <a href="#"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum quibusdam dolores. Nulla ullam quaerat laudantium, ipsam voluptatibus at autem.</p></a>
+        </div>
+        <div class="achieve-box">
+          <a href="#"><img src="imgs/achievement-icon.webp" alt="achievement-icon"></a>
+          <a href="#"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum quibusdam dolores. Nulla ullam quaerat laudantium, ipsam voluptatibus at autem.</p></a>
+        </div>
+        <div class="achieve-box">
+          <a href="#"><img src="imgs/achievement-icon.webp" alt="achievement-icon"></a>
+          <a href="#"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum quibusdam dolores. Nulla ullam quaerat laudantium, ipsam voluptatibus at autem.</p></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Achievemnts Section -->
+
+  <!-- Start Faq Section -->
+  <section class="faq" id="faq">
+    <picture class="bg-cover" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <img src="imgs/faq.webp"
+            alt="Bg Cover"
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </picture>
+    <div class="container">
+      <h2 class="heading" style="text-align: center;">FAQ</h2>
+      <div class="faq-container">
+        <div class="faq-box">
+          <div class="question">
+            <h3>What your question</h3>
+            <img src="imgs/chevron-up-solid.svg" alt="arrow">
+          </div>
+          <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt aspernatur temporibus placeat dolorum vitae repellendus enim molestiae vel praesentium minus.
+          </div>
+        </div>
+        <div class="faq-box">
+          <div class="question">
+            <h3>What your question</h4>
+            <img src="imgs/chevron-up-solid.svg" alt="arrow">
+          </div>
+          <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt aspernatur temporibus placeat dolorum vitae repellendus enim molestiae vel praesentium minus.
+          </div>
+        </div>
+        <div class="faq-box">
+          <div class="question">
+            <h3>What your question</h3>
+            <img src="imgs/chevron-up-solid.svg" alt="arrow">
+          </div>
+          <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt aspernatur temporibus placeat dolorum vitae repellendus enim molestiae vel praesentium minus.
+          </div>
+        </div>
+        <div class="faq-box">
+          <div class="question">
+            <h3>What your question</h3>
+            <img src="imgs/chevron-up-solid.svg" alt="arrow">
+          </div>
+          <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt aspernatur temporibus placeat dolorum vitae repellendus enim molestiae vel praesentium minus.
+          </div>
+        </div>
+        <div class="faq-box">
+          <div class="question">
+            <h3>What your question</h3>
+            <img src="imgs/chevron-up-solid.svg" alt="arrow">
+          </div>
+          <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt aspernatur temporibus placeat dolorum vitae repellendus enim molestiae vel praesentium minus.
+          </div>
+        </div>
+        <div class="faq-box">
+          <div class="question">
+            <h3>What your question</h3>
+            <img src="imgs/chevron-up-solid.svg" alt="arrow">
+          </div>
+          <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt aspernatur temporibus placeat dolorum vitae repellendus enim molestiae vel praesentium minus.
+          </div>
+        </div>
+        <div class="faq-box">
+          <div class="question">
+            <h3>What your question</h3>
+            <img src="imgs/chevron-up-solid.svg" alt="arrow">
+          </div>
+          <div class="answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt aspernatur temporibus placeat dolorum vitae repellendus enim molestiae vel praesentium minus.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Faq Section -->
+
+  <!-- Start Team Section -->
+  <section class="team" id="team">
+    <picture class="bg-cover" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <img src="imgs/team.webp"
+            alt="Bg Cover"
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </picture>
+    <h2 class="heading" style="text-align: center;">Meet The Team</h2>
+    <div class="container">
+      <div class="cards-container">
+        <div class="card-box">
+          <img src="imgs/person.webp" alt="Team Person">
+          <p class="txt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa neque voluptatem in voluptates quas facilis obcaecati consequuntur.
+          </p>
+        </div>
+        <div class="card-box">
+          <img src="imgs/person.webp" alt="Team Person">
+          <p class="txt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa neque voluptatem in voluptates quas facilis obcaecati consequuntur.
+          </p>
+        </div>
+        <div class="card-box">
+          <img src="imgs/person.webp" alt="Team Person">
+          <p class="txt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa neque voluptatem in voluptates quas facilis obcaecati consequuntur.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Team Section -->
+
+  <!-- Start Social Section -->
+  <div class="socialSec">
+    <picture class="bg-cover" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <img src="imgs/social"
+            alt="Bg Cover"
+            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </picture>
+    <div class="container">
+      <h2 class="heading" style="text-align: center;">Visit Our Socials</h2>
+      <div class="social-media">
+        <a href="#"><img src="imgs/facebook.webp" alt="facebook"></a>
+        <a href="#"><img src="imgs/twitter.webp" alt="twitter"></a>
+        <a href="#"><img src="imgs/instagram.webp" alt="instagram"></a>
+        <a href="#"><img src="imgs/tiktok.webp" alt="tiktok"></a>
+      </div>
+      <a href="#" class="btn">Social Link</a>
+    </div>
+  </div>
+  <!-- End Social Section -->
+
+  <!-- Start Footer Section -->
+  <footer class="footer">
+    <div class="logo">
+      <a href="#intro" style="display: block;"><img src="imgs/logo.webp" alt="Logo"></a>
+    </div>
+    <div class="copyright">
+      2021 CopyRights &copy; All Right Reserved
+      <i style='display:none'>Designed & Coded By Mohamed Elsayed</i>
+    </div>
+    <div class="social-media">
+      <a href="#"><img src="imgs/facebook.webp" alt="facebook"></a>
+      <a href="#"><img src="imgs/twitter.webp" alt="twitter"></a>
+      <a href="#"><img src="imgs/instagram.webp" alt="instagram"></a>
+      <a href="#"><img src="imgs/tiktok.webp" alt="tiktok"></a>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <!-- Vanilla Tilt File -->
+  <script src="js/vanilla-tilt.js"></script>
+  <!-- Main JS File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
